@@ -1,0 +1,33 @@
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 100vh;
+}
+.menu_list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    flex-direction: column;
+}
+.menu_list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+}
